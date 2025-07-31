@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from typing import List, Dict
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 KATO_URL = "https://katokenya.org/kato-members-directory/"
 
 def scrape_kato_members() -> List[Dict[str, str]]:
